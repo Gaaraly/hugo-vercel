@@ -1,6 +1,7 @@
 baseURL = "https://hugo.charmingu.cn/"
-languageCode = "en-us"
-title = "Wayz's Blog"
+#languageCode = "en-us"
+languageCode = "zh-cn"
+title = "Yun's Blog"
 DefaultContentLanguage = "cn"
 theme  =  "yin-yang"
 enableRobotsTXT = true
@@ -17,7 +18,7 @@ enableRobotsTXT = true
 
 [author]
   name = "Wayz"
-  homepage = "https://hugo.charmingu.cn/"
+  homepage = "https://blog.charmingu.cn/"
 
 [languages]
   [languages.en]
@@ -32,7 +33,7 @@ enableRobotsTXT = true
 [params]
 headTitle = "Charming U"
 description = "Something for onething,something for darling."
-favicon = "/logo.svg"
+#favicon = "/logo.svg"
 #staticPrefix = "https://cdn.jsdelivr.net/gh/gaaraly/hugo"
 mainSections = ["posts"]
 lazyImage = true
@@ -41,7 +42,7 @@ postHeaderContent = "<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/k
 postFooterContent = ""
 [[params.socials]]
 name = "About Me"
-link = "https://hugo.charmingu.cn/posts/about/"
+link = "https://blog.charmingu.cn/posts/about/"
 [[params.socials]]
 name = "Github"
 link = "https://github.com/gaaraly"
