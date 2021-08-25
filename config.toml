@@ -2,7 +2,7 @@ baseURL = "https://hugo.charmingu.cn/"
 languageCode = "en-us"
 title = "Wayz's Blog"
 DefaultContentLanguage = "cn"
-theme  =  "yinyang"
+theme  =  "yin-yang"
 enableRobotsTXT = true
 
 [markup]
