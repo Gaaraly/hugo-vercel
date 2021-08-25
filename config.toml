@@ -1,4 +1,47 @@
-baseURL = "http://example.org/"
+baseURL = "https://hugo.charmingu.cn/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "Wayz's Blog"
+DefaultContentLanguage = "cn"
+theme  =  "yinyang"
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "tango"
+    tabWidth = 2
+
+[author]
+  name = "Wayz"
+  homepage = "https://hugo.charmingu.cn/"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+  [languages.cn]
+    contentDir = "content/cn"
+    languageName = "Chinese"
+    weight = 2
+
+[params]
+headTitle = "Charming U"
+description = "Something for onething,something for darling."
+favicon = "/logo.svg"
+#staticPrefix = "https://cdn.jsdelivr.net/gh/gaaraly/hugo"
+mainSections = ["posts"]
+lazyImage = true
+postHeaderContent = "<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css' integrity='sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw' crossorigin='anonymous'><script defer src='https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js' integrity='sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH' crossorigin='anonymous'></script><script defer src='https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js' integrity='sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v' crossorigin='anonymous' onload='renderMathInElement(document.body);'></script>"
+#postFooterContent = "<br/><br/><p>Subscribe to：<a target='_blank' href='https://mailchi.mp/a1a0d59e7a19/joway'>Joway's Blog</a></p>"
+postFooterContent = ""
+[[params.socials]]
+name = "About Me"
+link = "https://hugo.charmingu.cn/posts/about/"
+[[params.socials]]
+name = "Github"
+link = "https://github.com/gaaraly"
